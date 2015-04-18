@@ -1,0 +1,10 @@
+.step{background:url(../images/login/step.png) no-repeat scroll 0 0 transparent;float:right;height:38px;overflow:hidden;width:1031px;margin:-5px 0 15px;}
+.step ul{margin:0;padding:0;}
+.step ul li{float:left;font-size:13px;font-weight:700;list-style:none outside none;text-transform:capitalize;line-height:38px;margin:0 25px;}
+.step ul li span{float:left;width:15px;}
+.step ul li + li + li{margin:0 39px 0 6px;}
+.step ul li + li + li + li{margin:0 33px 0 6px;}
+.step ul li + li + li + li + li{margin:0 45px 0 6px;}
+.step ul li + li + li + li + li +li{margin:0 41px 0 4px;}
+.step ul li + li + li + li + li +li + li{margin:0 21px 0 6px;}
+.step ul li a{color:#3e3e3e;text-decoration:none;}

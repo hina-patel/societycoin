@@ -1,0 +1,31 @@
+*{ margin:0; padding:0; border:none;}
+@font-face {
+ font-family: 'lato_lightregular';
+ src: url('fonts/lato-lig-webfont.eot');
+ src: url('fonts/lato-lig-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/lato-lig-webfont.woff') format('woff'), url('fonts/lato-lig-webfont.ttf') format('truetype'), url('fonts/lato-lig-webfont.svg#lato_lightregular') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+body{ font-family:Arial, Helvetica, sans-serif; font-size:12px; margin:0; padding:0;}
+.clear{ clear:both;}
+
+.outer_wrapper{ width:100%;}
+.login_wrapper{ width:445px; margin:115px auto 0 auto; background:#f8fcff url(../images/admin_bg.gif) repeat-x left top; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; min-height:430px;}
+.admin_top{ float:left; margin:26px 0 0 -27px;}
+.login_form{ float:left; padding:30px 0 0 30px; position:relative;}
+.login_form form{ width:100%; float:left;}
+.login_form form .row{ width:100%; float:left; margin-bottom:11px; position:relative;}
+.login_form form .row label{ font:14px lato_lightregular; color:#31363a; width:100%; float:left;}
+.login_form form .row label strong{ color:#ff0101;}
+.login_form form .row input{ width:275px; height:22px; line-height:32px; background:#fff; float:left; border:1px solid #c3c3c3; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; margin:2px 0 10px 0; padding:5px; font:14px lato_lightregular; color:#31363a; }
+.login_form form .row input.captcha{ width:184px; height:22px; background:#fff; float:left; border:1px solid #c3c3c3; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; margin:2px 0 17px 0; line-height:32px; padding:5; font:14px lato_lightregular; color:#31363a; }
+.login_form form .row span{ float:left; padding:0px 0 0 10px;}
+.login_form form .row input.submit{ background:url(../images/submit_btn.gif) left top no-repeat; width:113px; height:47px; cursor:pointer; border:none; margin:0; text-indent:-9999px;}
+.login_form form .row label.error{ margin:0 0 10px 0; color:#ff0000; position:absolute; top:54px; left:0;}
+.msg{ width:100%; float:left; position:absolute; top:10px; left:30px;}
+.msg p{ font:14px lato_lightregular; color:#31363a; width:100%; float:left;}
+.login_form form .row span img{ float:left;}
+.error{border: 1px solid red !important;}
+
+.login_form h5{color: #4B4B4B; font-family: Tahoma; font-size: 13px; font-weight: bold; padding:10px 0 0 0; width:100%; float:left;}
